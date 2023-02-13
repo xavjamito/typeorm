@@ -10,7 +10,7 @@
 ## How to create self referencing relation
 
 Self-referencing relations are relations which have a relation to themselves.
-This is useful when you are storing entities in a tree-like structures.
+This is useful when you are storing entities in a tree-like structure.
 Also, "adjacency list" pattern is implemented using self-referenced relations.
 For example, you want to create categories tree in your application.
 Categories can nest categories, nested categories can nest other categories, etc.
